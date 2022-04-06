@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="our-team">
+        <div class="item">
+            <div class="item-img">
+                <img src="#" alt="img">
+                <div class="item-img-capture">
+                    <p class="item-img-capture-text">
+                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                    </p>
+                </div>
+            </div>
+            <div class="item-descr">
+                <h3 class="item-name">Игорь Демьяненко</h3>
+                <p class="item-position">Product Designer</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-img">
+                <img src="#" alt="img">
+                <div class="item-img-capture">
+                    <p class="item-img-capture-text">
+                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                    </p>
+                </div>
+            </div>
+            <div class="item-descr">
+                <h3 class="item-name">Игорь Демьяненко</h3>
+                <p class="item-position">Product Designer</p>
+            </div>
+        </div>
+    </section>
+
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .our-team {
+            padding: 94px 0;
+            background-color: #000;
+        }
+
+        .item {
+            display: inline-block;
+            width: 370px;
+            margin-right: 30px;
+        }
+
+        .item-img {
+            position: relative;
+            height: 260px;
+            background-color: brown;
+            overflow: hidden;
+        }
+
+        .item-img-capture {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 24px;
+            background-color: rgba(33, 150, 243, 0.9);
+            transition: 0.4s;
+        }
+
+        .item:hover .item-img-capture {
+            top: 0%;
+        }
+
+        .item-img-capture-text {
+            font-size: 18px;
+            line-height: 28px;
+            color: #fff;
+        }
+
+        .item-descr {
+            padding: 20px 24px;
+            background-color: #fff;
+        }
+
+    </style>
+
+</body>
+</html>
